@@ -27,6 +27,9 @@ No physical electronic components are used.
 - ## Résultats de la simulation
 
 La simulation virtuelle de la machine à compter les graines fonctionne correctement.
+## Simulation Tinkercad
+
+[Voir et tester la simulation](https://www.tinkercad.com/things/c5HtxPdIgeS-glorious-kup-tumelo?sharecode=EGfYp7cxyCoFfmGZSmy0WTUHsQFvYFfSWyVPly4xEOo)
 
 - Le bouton connecté à D8 incrémente le nombre de graines.
 - Le bouton connecté à D9 augmente l'objectif de comptage de 10.
