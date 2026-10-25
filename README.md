@@ -24,3 +24,13 @@ No physical electronic components are used.
 - Add a motor to distribute seeds.
 - Add a sensor to detect each seed.
 - Design a 3D model of the machine
+- ## Résultats de la simulation
+
+La simulation virtuelle de la machine à compter les graines fonctionne correctement.
+
+- Le bouton connecté à D8 incrémente le nombre de graines.
+- Le bouton connecté à D9 augmente l'objectif de comptage de 10.
+- Le bouton connecté à D10 remet le compteur à zéro.
+- Les résultats sont affichés dans le Serial Monitor.
+
+**Statut :** Simulation virtuelle réussie. Aucun matériel physique n'a été utilisé.
