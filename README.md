@@ -1,35 +1,51 @@
+# Machine à compter les graines 🌱
 
-# Seed Counting Machine 🌱
+## Description du projet
 
-## Project Description
-This project aims to design a smart machine that counts seeds automatically.
+Ce projet consiste à concevoir et à simuler une machine permettant de compter les graines et de définir une quantité cible.
 
-## Objectives
-- Count seeds accurately.
-- Set a target quantity.
-- Display the count on an LCD screen.
-- Reduce manual counting time.
+## Objectifs
 
-## Tools
+- Simuler le comptage des graines.
+- Définir une quantité cible.
+- Afficher le nombre de graines comptées.
+- Réduire le temps consacré au comptage manuel.
+
+## Outils utilisés
+
 - Tinkercad Circuits
-- Arduino Uno (virtual simulation)
+- Arduino Uno (simulation virtuelle)
 - C++ / Arduino
-- LCD display and push buttons (virtual components)
+- Boutons-poussoirs virtuels
+- Serial Monitor pour afficher les résultats
 
-## Project Status
-Currently in the virtual design and simulation phase.
-No physical electronic components are used.
+## État du projet
 
-## Future Improvements
-- Add a motor to distribute seeds.
-- Add a sensor to detect each seed.
-- Design a 3D model of the machine
-- ## Résultats de la simulation
+Le projet est actuellement en phase de conception et de simulation virtuelle. Aucun composant électronique physique n'a été utilisé.
 
-La simulation virtuelle de la machine à compter les graines fonctionne correctement.
+## Résultats de la simulation
+
+La simulation fonctionne correctement :
+
+- **Bouton D8 :** incrémente le compteur de graines.
+- **Bouton D9 :** augmente la quantité cible de 10.
+- **Bouton D10 :** remet le compteur à zéro.
+- **Serial Monitor :** affiche le compteur et la quantité cible.
+
 ## Simulation Tinkercad
 
 [Voir et tester la simulation](https://www.tinkercad.com/things/c5HtxPdIgeS-glorious-kup-tumelo?sharecode=EGfYp7cxyCoFfmGZSmy0WTUHsQFvYFfSWyVPly4xEOo)
+
+## Améliorations futures
+
+- Ajouter un capteur pour détecter automatiquement chaque graine.
+- Ajouter un moteur pour distribuer les graines.
+- Concevoir un modèle 3D de la machine.
+- Ajouter un écran LCD pour afficher les résultats.
+
+## Statut du projet
+
+**Simulation virtuelle réalisée et testée avec succès.** Le comptage est actuellement simulé à l'aide de boutons-poussoirs virtuels.
 
 - Le bouton connecté à D8 incrémente le nombre de graines.
 - Le bouton connecté à D9 augmente l'objectif de comptage de 10.
