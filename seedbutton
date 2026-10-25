@@ -1,0 +1,46 @@
+const int seedButton = 8;
+const int targetButton = 9;
+const int resetButton = 10;
+
+int target = 50;
+int count = 0;
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(seedButton, INPUT_PULLUP);
+  pinMode(targetButton, INPUT_PULLUP);
+  pinMode(resetButton, INPUT_PULLUP);
+
+  Serial.println("Seed Counting Machine");
+  showCount();
+}
+
+void loop() {
+  if (digitalRead(seedButton) == LOW) {
+    if (count < target) {
+      count++;
+      showCount();
+    }
+    delay(250);
+  }
+
+  if (digitalRead(targetButton) == LOW) {
+    target += 10;
+    showCount();
+    delay(250);
+  }
+
+  if (digitalRead(resetButton) == LOW) {
+    count = 0;
+    showCount();
+    delay(250);
+  }
+}
+
+void showCount() {
+  Serial.print("Target: ");
+  Serial.print(target);
+  Serial.print(" | Count: ");
+  Serial.println(count);
+}
